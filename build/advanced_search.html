@@ -1,13 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced Search</title>
-</head>
-<body>
-  <h1>This text is for advanced search.</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+  </head>
+  <body>
+    <h1>Advanced Search</h1>
 
-  <a href="/build/index.html">Google Search</a>
-</body>
+    <a href="/build/index.html">Google Search</a>
+
+    <main>
+      <section>
+        <form action="https://www.google.com/advanced_search" method="get" class="advance-form">
+          <div class="advance-form">
+            <label for="eq_all">all these words:</label>
+            <input type="text" autofocus id="eq_all" />
+          </div>
+          <div class="advance-form">
+            <label for="eq_exact">this exact word or phrase:</label>
+            <input type="text" id="eq_exact" />
+          </div>
+          <div class="advance-form">
+            <label for="eq_any">any of these words:</label>
+            <input type="text" id="eq_any" />
+          </div>
+          <div class="advance-form">
+            <label for="eq_none">none of these words:</label>
+            <input type="text" id="eq_none" />
+          </div>
+
+          <div class="advance-form">
+            <input type="submit" value="Advanced Search" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
