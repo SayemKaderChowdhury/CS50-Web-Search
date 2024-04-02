@@ -12,27 +12,24 @@
 
     <main>
       <section>
-        <form action="https://www.google.com/advanced_search" method="get" class="advance-form">
-          <div class="advance-form">
-            <label for="eq_all">all these words:</label>
-            <input type="text" autofocus id="eq_all" />
+        <form action="https://www.google.com/advanced_search" method="get">
+          <div>
+            <label for="eq_all">All these words:</label>
+            <input type="text" id="eq_all" name="eq_all" autofocus />
           </div>
-          <div class="advance-form">
-            <label for="eq_exact">this exact word or phrase:</label>
-            <input type="text" id="eq_exact" />
+          <div>
+            <label for="eq_exact">This exact word or phrase:</label>
+            <input type="text" id="eq_exact" name="eq_exact" />
           </div>
-          <div class="advance-form">
-            <label for="eq_any">any of these words:</label>
-            <input type="text" id="eq_any" />
+          <div>
+            <label for="eq_any">Any of these words:</label>
+            <input type="text" id="eq_any" name="eq_any" />
           </div>
-          <div class="advance-form">
-            <label for="eq_none">none of these words:</label>
-            <input type="text" id="eq_none" />
+          <div>
+            <label for="eq_none">None of these words:</label>
+            <input type="text" id="eq_none" name="eq_none" />
           </div>
-
-          <div class="advance-form">
-            <input type="submit" value="Advanced Search" />
-          </div>
+          <input type="submit" value="Advanced Search" />
         </form>
       </section>
     </main>
